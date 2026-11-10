@@ -1,0 +1,17 @@
+archivo = open("Archivos.txt","w")
+archivo.write("Mi archivo")
+
+archivo.close()
+
+print("Archivo creado con exito")
+
+archivo = open("Archivos.txt","r")
+
+print(archivo.read())
+
+archivo.close()
+
+
+archivo = open("Mi archivo.txt","a")
+archivo.write("\nEsta es otra linea de texto")
+archivo.close()
